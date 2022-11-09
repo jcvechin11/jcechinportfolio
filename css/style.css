@@ -174,7 +174,7 @@ ABOUT PROFILE CONTENT
   background: rgba(126, 126, 126, 0.1);
   border-radius: 20px;
   margin-top: -3em;
-  padding-top: 3em;
+  padding: 3em 0;
 }
 
 .about-section-container:nth-child(1) {
