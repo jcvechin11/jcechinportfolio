@@ -33,14 +33,17 @@ background: var(--primary-color);
 .logo-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   margin: auto;
   justify-content: center;
   align-items: center;
 }
 .logo-icon-container {
   display: flex;
+  justify-content: center;
+  width: 75%;
 }
+
 .logo-text-container h3 {
   width: 100%;
 }
