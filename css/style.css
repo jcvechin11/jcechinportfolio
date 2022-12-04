@@ -25,7 +25,7 @@ body {
 START HEADER
 ************/
 header {
-max-width: 80%;
+max-width: 100%;
 margin: auto;
 background: var(--primary-color);
 }
@@ -73,30 +73,25 @@ color: var(--secondary-color);
 }
 
 .main-nav-container {
-  position:absolute;
-  top: 0;
-  left: 0;
   z-index: 9999;
 }
 
-.main-nav-container > nav {
+/* .main-nav-container > nav {
   display: none;
-  margin-top: 1em;
-}
+  margin: auto;
+} */
 .main-nav-container > nav ul {
  list-style: none;
- padding: 0.75em 0;
- width: 100%;
- background: var(--primary-color);
- border-radius: 0 20px 20px 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
 }
 .main-nav-container > nav ul li {
-  margin-bottom: 0.5em;
-  margin-left: 1em;
+  margin: 0.25em;
 }
 .main-nav-container a {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--light);
   text-shadow: 1px 3px 1px var(--darkest);
@@ -106,7 +101,7 @@ color: var(--secondary-color);
 .main-nav-container a:hover {
   color: var(--light-primary-color);
 }
-.nav-toggle {
+/* .nav-toggle {
   width: 100%;
   display: none;
 }
@@ -144,9 +139,9 @@ color: var(--secondary-color);
   padding: 2em 3em 0;
   border-radius: 5px;
   margin-left: 0;
-}
+} */
 @media screen and (min-width: 800px) {
-  header {
+  /* header {
     display: flex;
     justify-content: space-between;
   }
@@ -169,14 +164,14 @@ color: var(--secondary-color);
     align-items: center;
     width: 100%;
     background: transparent;
-  }
+  } */
 }
 /****************
 START HOME INTRO
 ****************/
 .home-intro-container {
   position: relative; 
-  height: 50vh;
+  height: 46vh;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -246,14 +241,14 @@ PROFILE PICTURE CENTER
 ABOUT PROFILE CONTENT
 *********************/
 .home-about-container {
-  width: 80%;
+  width: 90%;
   margin: -1.5em auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background: rgba(126, 126, 126, 0.1);
   border-radius: 20px;
-  padding: 3em 1em;
+  padding: 2em 1em;
 }
 
 .about-section-container:nth-child(1) {
@@ -269,19 +264,19 @@ ABOUT PROFILE CONTENT
 }
 .content-text-container {
   color: #ffffff;
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  padding: 0.5em;
 }
 .content-text-container h3 {
   color: #ffae00;
   font-size: 1.2rem;
 }
 
-
 .about-section-container:nth-child(2) {
   max-width: 100%;
   background: rgba(126, 126, 126, 0.2);
   border-radius: 20px;
-  padding: 0 2em 1em;
+  padding: 1em;
   margin-top: 1em;
 }
 .fname-space, .mname-space,
@@ -289,19 +284,19 @@ ABOUT PROFILE CONTENT
   color: var(--secondary-color);
 }
 .fname-space {
-  margin-left: 2.5em;
+  margin-left: 0.5em;
 }
 .mname-space {
-  margin-left: 1.4em;
+  margin-left: 0.5em;
 }
 .lname-space {
-  margin-left: 2.5em;
+  margin-left: 0.5em;
 }
 .bdate-space {
-  margin-left: 3em;
+  margin-left: 0.5em;
 }
 .address-space{
-  margin-left: 3.5em;;
+  margin-left: 0.5em;;
 }
 .bold-text {
   font-weight: 900;
@@ -318,7 +313,7 @@ ABOUT PROFILE CONTENT
 START HOME SKILL CONTENT
 *************************/
 .skills-content-container {
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   background: rgba(126, 126, 126, 0.1);
   border-radius: 20px;
@@ -358,7 +353,6 @@ START HOME SKILL CONTENT
 .skills-items-container {
   margin-left: 0.5em;
   width: 100%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,11 +422,11 @@ START HOME SKILL CONTENT
 START SERVICES
 ***************/
 .home-services-container {
-  width: 80%;
+  width: 90%;
   margin: 2em auto;
   background: rgba(126, 126, 126, 0.1);
   border-radius: 20px;
-  padding: 2em;
+  padding: 2em 1em;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -456,12 +450,9 @@ START SERVICES
   font-size: 2.5rem;
   margin-top: -0.3em;
 }
-.service-description-container {
-  margin-left: 0.75em;
-}
+
 .service-description-container > article > p {
  color: #ffffff;
-  text-align: justify;
 }
 .service-description-container .services-button {
   width: 70%;
@@ -600,7 +591,6 @@ START MIDDLE FOOTER
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid red;
 }
 .footer-items-container > h3 {
   color: #fcbd37;
