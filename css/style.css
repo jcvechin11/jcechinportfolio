@@ -84,7 +84,6 @@ color: var(--secondary-color);
 .main-nav-container {
   z-index: 9999;
 }
-
 /* .main-nav-container > nav {
   display: none;
   margin: auto;
@@ -96,7 +95,7 @@ color: var(--secondary-color);
  justify-content: center;
 }
 .main-nav-container > nav ul li {
-  margin: 0.5em 0.7em;
+  margin: 0.45em;
 }
 .main-nav-container a {
   text-decoration: none;
@@ -202,14 +201,14 @@ START HOME INTRO
 .intro-name-container {
   position:absolute;
   top: 2em;
-  left: 3em;
+  left: 1em;
   width: auto;
 }
 
 .home-profile-container {
   position: absolute;
   right: 0;
-  margin: 8% 1em 0 1em;
+  margin: 8% 0.5em 0 1em;
   width: 30%;
 }
 
