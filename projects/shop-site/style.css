@@ -1,0 +1,131 @@
+:root {
+  --primary-light-color: #eefffc;
+  --primary-dark-color: #222222;
+  --primary-color: #070e25;
+  --secondary-color: #ff8800;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: column;
+}
+.center-flex {
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: var(--primary-color);
+}
+.container {
+  color: var(--primary-light-color);
+  }
+#particles-bground {
+  background: url(./img/background.png) no-repeat center;
+  background-size: cover;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 84%, 69% 95%, 30% 92%, 0 100%, 0 0);
+}
+.nav-menu-container {
+  width: 100%;
+  justify-content: space-around;
+}
+.nav-menu-container nav {
+  width: 50%;
+}
+.nav-menu-container nav ul {
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.nav-menu-container a {
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-menu-container li {
+  color: var(--primary-light-color);
+  font-size: 1.25rem;
+}
+.nav-menu-container li:hover {
+  color: var(--secondary-color);
+}
+.center-this {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.home-info-container {
+  width: 45%;
+}
+.home-img-container {
+ width: 40%; 
+}
+.home-img-container img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.content-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.services-item-container {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 1em;
+  width: 30%;
+}
+.icon-container, .info-container {
+  text-align: center;
+}
+.img-container {
+  width: 90%;
+  margin: 1em auto 0 auto;
+}
+.img-container img {
+  width: 100%;
+  margin: auto;
+}
+.offer-container .img-container{
+  width: 60%;
+}
+.offer-container ul {
+  width: 80%;
+  margin: auto;
+}
+.offer-container {
+  margin-top: 3em;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+}
+h1,h2,p,li,.icon-container {
+  color: var(--primary-light-color);
+}
+.icon-container i {
+  font-size: 2rem;
+}
+.about-container {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .content-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .services-item-container {
+    width: 100%;
+  }
+}

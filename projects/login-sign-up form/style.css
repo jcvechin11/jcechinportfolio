@@ -1,0 +1,259 @@
+:root {
+  --primary-light: #dfdfdf;
+  --secondary-light: #a0a0a0;
+  --primary-dark: #1f1f1f;
+  --primary-color: #470068;
+  --secondary-color: #ffd95e;
+}
+html {
+  height: 100%;
+}
+body, html {
+  background-color: var(--primary-light);
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background: url(./img/rose-back.svg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 660px;
+}
+
+main {
+  width: clamp(420px, 45%, 520px);
+  margin: auto;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.12); 
+  backdrop-filter: blur(6px);
+  box-shadow: inset 0 -5px 7px rgba(0, 0, 0, 0.2);
+  padding: 2em 0;
+  color: var(--primary-light);
+}
+
+main > .container {
+  width: 80%;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.grid-center {
+  place-items: center;
+}
+.center-txt {
+  text-align: center;
+}
+.right-txt {
+  text-align: right;
+}
+.main-input-container {
+  width: 100%;
+}
+.input-container {
+  width: 100%;
+}
+input {
+  border: none;
+  margin: 0;
+}
+.input-container input {
+  border-bottom: 1px solid var(--primary-dark);
+  border-right: 1px solid var(--primary-color);
+  border-radius: 20px;
+  line-height: 2.3em;
+  outline: none;
+  font-size: 1rem;
+  margin: 0 0 0 0;
+  color: var(--primary-light);
+  background-color: rgba(226, 226, 226, 0.1);
+  padding: 0.2em 0.2em 0.2em 0.8em;
+  width: 60%;
+}
+input::placeholder {
+  color: var(--secondary-light);
+}
+.fas {
+  font-size: 1.5em;
+  margin-right: 0.3em;
+  line-height: 2.3em;
+}
+.pass-container {
+  margin-top: 0.5em;
+}
+.pass-container input{
+  margin-bottom: 0 !important;
+  
+}
+.login-btn {
+  background-color: var(--primary-color);
+  width: 60%;
+  margin: auto;
+  height: 32px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.login-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transform: scale(1.15);
+  transition: 0.3s ease-in-out;
+}
+.forgot-pass-container {
+  text-align: right;
+  margin: 0.2em 0 1em 0;
+  width: 70%;
+}
+.forgot-pass-container a, .signup-container a {
+  margin-top: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--primary-color);
+  border-bottom: 1px solid rgba(226, 226, 226, 0.1);
+}
+.forgot-pass-container a:hover, .signup-container a:hover {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+.chkbox-container {
+  text-align: left;
+  margin-bottom: 1.5em;
+  width: 60%;
+}
+.chkbox-container input:hover , label:hover {
+  cursor: pointer;
+}
+.signup-container a p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.or-container {
+  width: 60%;
+  padding: 0;
+  margin: 1em auto;
+}
+.or-container p {
+  margin: 0;
+  padding: 0;
+}
+.or-container div {
+  width: 40%;
+  border-bottom: 1px solid var(--primary-color);
+  opacity: 0.5;
+  margin: 0 0.5em;
+}
+.signin-soc-txt {
+  margin-top: 0.25em;
+}
+
+.social-media-container a {
+  margin: 0.5em;
+  width: 20px;
+  height: 20px;
+  padding:0.5em;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+.social-media-container a:hover {
+  transition: 0.25s ease-in-out;
+  transform: scale(1.10);
+}
+
+/**SIGNUP**/
+.name-container, .email-container > input , .user-container > input {
+  margin-top: 0.5em;
+}
+.fname-container > input, .lname-container > input {
+  width: 70%
+}
+h3 {
+  text-align: left;
+}
+.left {
+  text-align: left;
+}
+.pass-main-container {
+  margin-bottom: 1em;
+}
+
+/*FORGOT PASS*/
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.4);
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+}
+
+#popup {
+  background-color: var(--secondary-light);
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  width: clamp(320px, 75%, 560px);
+  height: 200px;
+  min-width: 320px;
+}
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--primary-color);
+  color: var(--primary-light);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+#closeButton:hover{
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+}
+.fpass-input-container {
+  width: 90%;
+}
+.fpass-input-container input {
+  color: var(--primary-dark);
+}
+.fpass-input-container input::placeholder {
+  color: #636363;
+}
+.reset-pass-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
+  margin-top: 1em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8em;
+  border-radius: 20px;
+}
+.reset-pass-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
+  transform: scale(1.15);
+  transition: 0.3s ease-in-out;
+}

@@ -1,447 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="author" content="Jhoncarlo Villaran Echin">
-    <title>JC Echin Personal Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./design/img/logo-icon.png" type="image/x-icon">
-  </head> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="./img/jcechin-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>JC Echin Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./particles-style.css">
+</head>
+<body>
+  <header id="home-header" class="d-flex" id="">
+  <div class="div-container logo-div">
+    <img src="./img/jcechin-icon.png" alt="logo-pic">
+  </div>
+  <div class="div-container nav-div">
+    <nav class="nav-menu-container">
+      <ul class="d-flex div-center">
+        <li class="nav-menu-list active first-active"><a href="#home-header" class="nav-link">HOME</a></li>
+        <li class="nav-menu-list"><a href="#profile-sect" class="nav-link">PROFILE</a></li>
+        <li class="nav-menu-list"><a href="./skills.html" class="nav-link">SKILLS</a></li>
+        <li class="nav-menu-list"><a href="#contact-sect" class="nav-link">CONTACTS</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<!--START BODY CONTENT-->
-  <body>
-    <header>
-      <div class="logo-container">
-        <div class="logo-icon-container">
-          <img src="./design/img/logo-icon.png" alt="JC Logo">
-          <div class="logo-text-container">
-            <h3>Personal</h3>
-            <h3>Portfolio</h3>
-          </div>
+<main>
+  <section id="home-sect" class="sect-container intro-sect d-flex center-div">
+    <div class="div-container intro-img-div center-div">
+      <img src="./img/jce-prof.jpg" alt="pic1">
+    </div>
+    <div class="div-container intro-div d-flex d-flex-column center-horizontal">
+      <div class="div-container">
+        <h3>Hi, I'm</h3>
+        <h2>Jhoncarlo Villaran Echin</h2>
+        <h3>An IT Officer with 5 years Experience</h3>
+      </div>
+      <div class="div-container btn-container d-flex">
+        <a class="dl-resume-btn" href="https://drive.usercontent.google.com/download?id=1WtWyHkUUt65DYQOuvvaAuPyxUFEAaSjF&export=download&authuser=1&confirm=t&uuid=aad25cab-89e3-4b46-b4ef-aec37da162a5&at=APZUnTUU9I28Sa3ikGaFHaB0MEu3:1720511700243"><button type="button">DOWNLOAD MY RESUME</button></a>
+        <a class="email-btn" href="mailto:jcvechin11@gmail.com?subject=&body="><button type="button">M@il Me</button></a>
+      </div>
+    </div>
+  </section>
+
+  <button id="topButton">Go to Top</button>
+  <div id="topOfPage"></div>
+
+  <section id="profile-sect" class="sect-container d-flex center-div">
+    <div class="div-container width-50 prof-detail-container">
+      <div class="div-container">
+        <h2 class="head-txt">About Me</h2>
+      </div>
+      <div class="div-container">
+        <p class="p-text">A persistent person, determined to do my work at my best as I can.
+          Has a knowledge of troubleshooting computer hardware and software
+          problem with Windows and Windows Server Operating System. More
+          preferably in software fields. Can do photo layout using Photoshop and
+          basic to medium video editing.</p>
+      </div>
+      <div class="div-container profile-info-container">
+        <div class="info-container div-container">
+          <p>Fullname:</p>
+          <h3>JHONCARLO VILLARAN ECHIN</h3>
         </div>
-        <div class="media-link-container">
-          <ul>
-            <li><a href="#"><img src="./design/img/fb-icon.png"></a></li>
-            <li><a href="#"><img src="./design/img/twitter-icon.png"></a></li>
-            <li><a href="#"><img src="./design/img/youtube-icon.png"></a></li>
-          </ul>
+        <div class="info-container div-container">
+          <p>Date of Birth:</p>
+          <h3>January 11, 1997</h3>
+        </div>
+        <div class="info-container div-container">
+          <p>Current Address:</p>
+          <h3>Pampanga, Lanang, Davao City</h3>
+        </div>
+        <div class="info-container div-container">
+          <p>Email Address:</p>
+          <h3>jcvechin11@gmail.com</h3>
+        </div>
+        <div class="info-container div-container">
+          <p>Contact Number:</p>
+          <h3>+63 997-963-9277 / +63 909-188-6277</h3>
         </div>
       </div>
-      <div class="main-nav-container">
-        <!-- <input type="checkbox" id="nav-toggle" class="nav-toggle"> -->
-        <!-- <label for="nav-toggle" class="label-nav-toggle">
-          <span></span>
-        </label> -->
-        <nav>
-          <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Skills</li></a>
-            <a href="#"><li>Services</li></a>
-            <a href="#"><li>Contact</li></a>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="home-intro-container">
-          <div class="intro-name-container">
-            <p>Hi, I'm</p>
-            <h2>JHONCARLO</h2>
-            <h2>VILLARAN ECHIN</h2>
-            <p>Technical Support Specialist</p>
-            <p>Layout/Graphic Artist</p>
-            <p>Front-End Developer</p>
-          </div>
-          <div class="home-profile-container">
-            <img src="./design/img/profile.png" alt="">
-          </div>
-     </div>
-      <div class="profile-pic-container">
-        <img src="./design/img/profile-pic.jpg" alt="jc profile">
-      </div>
-
-      <!--ABOUT ME START-->
-      <div class="home-about-container">
-        <section class="about-section-container">
-          <div class="content-header-container">
-            <h2>ABOUT ME</h2>
-          </div>
-          <div class="content-text-container">
-            <p>I'm a technical support specialist for over 3years of experience with the knowledge of troubleshooting computer hardware and software problem with Windows and Windows Server Operating System. Also I have a high capability of layout design and video editing since it was part of my career experience. I've been studying Front-End Developer and expanding my knowledge on it.</p>
-          </div>
-          <div class="content-text-container">
-            <h3>Personality</h3>
-            <br>
-            <p>I described myself as a persistant person. I’m not that talented one, but I’m determined to do my work at my best as posible as I can  to show what Im made of, and that’s my nature of work is. I’m also practical in things and interested to make it better, and intuitive about how things work and like to get involved and just do it.
-            <a href="#">Know more...</a></p>
-          </div>
-        </section>
-
-        <section class="about-section-container">
-          <div class="content-text-container">
-            <h3>PERSONAL INFORMATION</h3>
-            <p>First Name <span class="fname-space">: JHONCARLO</span></p>
-            <p>Middle Name <span class="mname-space">: VILLARAN</span></p>
-            <p>Last Name <span class="lname-space">: ECHIN</span></p>
-            <p>Birthdate <span class="bdate-space">: January 11, 1997</span></p>
-            <p>Address <span class="address-space">: Guindulman, Bohol</span></p>
-          </div>
-          <div class="content-text-container">
-            <h3>EDUCATION</h3>
-            <p><span class="bold-text">BS in Computer Science</span></p>
-            <p><span class="bold-italic">Bohol Island State University</span></p>
-            <p><span class="italic">June 2014 - March 2018</span></p>
-          </div>
-          <div class="content-text-container">
-            <h3>WORK EXPERIENCE</h3>
-            <p><span class="bold-text">IT Technical Support</span></p>
-            <p><span class="bold-italic">DPWH - Bohol 3rd DEO</span></p>
-            <p><span class="italic">Guindulman, Bohol</span></p>
-            <p><span class="italic">August 2019 - Present</span></p>
-            <br>
-            <p><span class="bold-text">Layout/Graphic Artist</span></p>
-            <p><span class="bold-italic">JCR MACRU Design and Prints</span></p>
-            <p><span class="italic">Tagbilaran City</span></p>
-            <p><span class="italic">September 2018 - June 2019</span></p>
-            <br>
-            <p><span class="bold-text">Technical Support Member (OJT)</span></p>
-            <p><span class="bold-italic">Prince Retail Group of Companies</span></p>
-            <p><span class="italic">Cebu City</span></p>
-            <p><span class="italic">September 2018 - June 2019</span></p>
-          </div>
-        </section>
-      </div>
-
-      <!--START SKILLS CONTENT-->
-      <div class="skills-content-container">
-        <div class="skills-header">
-          <h2>SKILLS</h2>
+        <div class="div-container dl-resume-container">
+          <a class="dl-resume-btn" href="https://drive.usercontent.google.com/download?id=1WtWyHkUUt65DYQOuvvaAuPyxUFEAaSjF&export=download&authuser=1&confirm=t&uuid=aad25cab-89e3-4b46-b4ef-aec37da162a5&at=APZUnTUU9I28Sa3ikGaFHaB0MEu3:1720511700243"><button type="button">DOWNLOAD MY RESUME</button></a>
         </div>
-        <!--START SKILL FIRST COLUMN-->
-        <div class="skills-container">
-          <!--START PHOTO LAYOUT EDITING SKILL-->
-          <section>
-            <h2 class="skill-name-header">PHOTO / LAYOUT EDITING</h2>
-            <!--START SKILL ITEM PS-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/ps.png" alt="ps-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Adobe Photoshop (CS6 / CC)</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar ps-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM AI -->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/ai.png" alt="ai-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Adobe Illustrator (CS6 / CC)</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar ai-bar"></div>
-                </div>
-              </div>
-            </div>
-          </section>
+    </div>
+    <div class="div-container width-50 about-img-container prof-pic-container">
+      <img src="./img/jce-profile.jpg " alt="pics2">
+    </div>
+  </section>
 
-          <!--START VIDEO EDITNG SKILL-->
-          <section>
-            <h2 class="skill-name-header">VIDEO EDITING</h2>
-            <!--START SKILL ITEM SONY VEGAS-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/vegas.png" alt="vegas-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Sony Vegas Pro</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar vegas-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM PREMIERE PRO -->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/premiere.png" alt="premiere-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Adobe Premiere Pro</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar premiere-bar"></div>
-                </div>
-              </div>
-            </div>
-          </section>
+  <section class="sect-container d-flex background-info-sect">
+    <div class="div-container educ-cont width-50 background-info-div">
+      <div class="div-container">
+        <h2 class="head-txt">Education</h2>
+        <div class="div-container top-m1">
+          <p>College School Graduated:</p>
+          <h3>Bohol Island State University - Candijay Campus</h3>
+          <address>Candijay, Bohol, Philippines 6312</address>
         </div>
-
-        <!--START SECOND SKILL COLUMN-->
-        <div class="skills-container">
-          <!--START WEB DEVELOPMENT SKILL-->
-          <section>
-            <h2 class="skill-name-header">WEB DEVELOPMENT</h2>
-            <!--START SKILL ITEM HTML-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/html-icon.png" alt="html-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>HTML</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar html-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM CSS-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/css.png" alt="css-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>CSS</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar css-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM JS-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/js.png" alt="js-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>JavaScript</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar js-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM BOOTSTRAP -->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/bootstrap.png" alt="bootstrap-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Bootstrap</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar bootstrap-bar"></div>
-                </div>
-              </div>
-            </div>
-             <!--START SKILL ITEM REACTJS -->
-             <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/react.png" alt="react-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>ReactJS</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar reactjs-bar"></div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--START TECHNICAL SKILLS-->
-          <section>
-            <h2 class="skill-name-header">TECHNICAL SKILLS</h2>
-            <!--START SKILL ITEM COMPUTER TROUBLESHOOTING-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/troubleshooting-icon.png" alt="comp-troubleshooting-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Computer Troubleshooting</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar compt-trouble-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM COMPUTER NETWORKING-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/networking-icon.png" alt="networking-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Computer Networking</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar compt-network-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM TECHNICAL WRITING-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/technical-writing.png" alt="tech-writing-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Technical Writing</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar tech-writing-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM HARDWARE SETUP-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/hardware-setup.png" alt="hardware-setup-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Computer Hardware Setup</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar hardware-setup-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!--START SKILL ITEM PROBLEM SOLVING-->
-            <div class="skills-items-container">
-              <div class="skill-icon">
-                <img src="./design/img/problem-solving.png" alt="problem-solving-icon">
-              </div>
-              <div class="skill-name-container">
-                <p>Problem-Solving</p>
-                <div class="empty-skill-bar">
-                  <div class="progress-skill-bar prob-solving-bar"></div>
-                </div>
-              </div>
-            </div>
-          </section>
+        <div class="div-container top-m1">
+          <p>Course:</p>
+          <h3>Bachelor of Science in Computer Science</h3>
+        </div>
+        <div class="div-container top-m1">
+          <p>School Year:</p>
+          <h3>2014 - 2018</h3>
         </div>
       </div>
-      
-      <!--START SERVICES CONTENT-->
-      <div class="home-services-container">
-        <section  class="services-content-container">
-        <div class="service-text-header">
-          <h2>SERVICES</h2>
-          <h2>I CAN DO</h2>
+      <div class="div-container">
+        <div class="div-container top-m1 top-m3">
+          <p>High School:</p>
+          <h3>Guinacot National High School</h3>
+          <address>Guindulman, Bohol, Philippines 6310</address>
         </div>
-          <div class="service-description-container">
-            <article>
-              <p>As my carrer and work experience. I do have multiple working field assignment. By this I acquiered a knowledge of this services I could offer and I will learn and expand my skills more for my future working industry or organization.</p>
-            </article>
-            <br>
-            <div class="services-button">
-              <a href="#"><div>KNOW MORE</div></a>
-            </div>
-          </div>
-        </section>
-
-        <section class="services-content-container">
-          <div class="services-item-content">
-            <h3>Computer Technical</h3>
-            <div class="services-item-description">
-              <div class="services-pics-container">
-                <img src="./design/img/comp-repair.jpg" alt="">
-                <img src="./design/img/comp-repair2.jpg" alt="">
-              </div>
-              <p>Identifying, troubleshooting and resolving problems and issues in a faulty computer.</p>
-            </div>
-          </div>
-          <div class="services-item-content">
-            <h3>Photo & Video Editing</h3>
-            <div class="services-item-description-2">
-              <div class="services-pics-container">
-                <img src="./design/img/photo layouting.jpg" alt="">
-                <img src="./design/img/video-editing.jpg" alt="">
-              </div>
-              <p>Design layout, picture, video creation, presentation, cinematic.</p>
-            </div>
-          </div>
-          <div class="services-item-content">
-            <h3>Web Development</h3>
-            <div class="services-item-description-2">
-              <div class="services-pics-container">
-                <img src="./design/img/web-dev-coding.jpg" alt="">
-                <img src="./design/img/web-site.jpg" alt="">
-              </div>
-              <p>Web design, website optimization, web testing, responsive design</p>
-            </div>
-          </div>
-        </section>
+        <div class="div-container top-m1">
+          <p>School Year:</p>
+          <h3>2010 - 2014</h3>
+        </div>
       </div>
-    </main>
-
-
-    <footer>
-      <section class="footer-up">
-        <div class="logo-container">
-          <div class="logo-icon-container">
-            <img src="./design/img/logo-icon.png" alt="JC Logo">
-          </div>
-          <div class="logo-text-container">
-            <h3>Personal</h3>
-            <h3>Portfolio</h3>
-          </div>
+    </div>
+    <div class="div-container work-cont width-50 background-info-div">
+      <div class="work">
+        <h2 class="head-txt">Work Experience</h2>
+        <div class="div-container top-m1">
+          <p>2023 - current</p>
+          <h3>IT Tech Support (Level 2)</h3>
+          <h3>Trust Hardware Phils., Inc.</h3>
+          <address>Davao City, Philippines 8000</address>
         </div>
-        <div class="footer-media-link-container">
-          <ul>
-            <li><a href="#"><img src="./design/img/fb-icon.png">@jcvechin01</a></li>
-            <li><a href="#"><img src="./design/img/twitter-icon.png">@jcechin01</a></li>
-            <li><a href="#"><img src="./design/img/youtube-icon.png">@chindaily</a></li>
-          </ul>
-        </div>
-      </section>
+      </div>
+      <div class="work">
+        <div class="div-container top-m3">
+          <p>2019 - 2023</p>
+          <h3>Administrative Aide II - IT Tech Support</h3>
+          <h3>DPWH - Bohol 3<sup>rd</sup> District Engineering Office</h3>
+          <address>Guindulman, Bohol, Philippines 6310</address>
+         </div>
+      </div>
+      <div class="work">
+        <div class="div-container top-m3">
+          <p>2018 - 2019</p>
+          <h3>Layout Artist</h3>
+          <h3>MACRU Prints and Design Advertising</h3>
+          <address>Tagbilaran City, Philippines 6300</address>
+         </div>
+      </div>
+    </div>
+  </section>
 
-      <section class="footer-mid">
-        <div class="footer-items-container">
-          <h3>Links</h3>
-          <nav class="footer-link-nav">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Skill</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+  <section id="skills-sect" class="sect-container">
+    <div class="div-container skills-cont d-flex top-m3">
+      <div class="skills width-50 soft-skill-container d-flex d-flex-column">
+        <h2 class="head-txt">Software Skills</h2>
+        <ul>
+          <li>Adobe Photoshop</li>
+          <li>Canva</li>
+          <li>Figma</li>
+          <li>Adobe Premier Pro</li>
+          <li>Adobe After Effects</li>
+          <li>Filmora</li>
+        </ul>
+      </div>
+      <div class="skills-img-parent skills-img width-50">
+        <div class="skills-img-div1 skills-grid-item"><img src="./img/logo/ps.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+        <div class="skills-img-div2 skills-grid-item"><img src="./img/logo/canva.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+        <div class="skills-img-div3 skills-grid-item"><img src="./img/logo/fig.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+        <div class="skills-img-div4 skills-grid-item"><img src="./img/logo/pr.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+        <div class="skills-img-div5 skills-grid-item"><img src="./img/logo/ae.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+        <div class="skills-img-div6 skills-grid-item"><img src="./img/logo/wf.png" alt="skills-imgs" class="grid-img skill-logo"><a href="./skills.html" class="skill-txt">TAKE A LOOK</a></div>
+      </div>
+    </div>
+    <div class="div-container skills-cont d-flex top-m3">
+      <div class="skills width-50 tech-skill-container d-flex d-flex-column tech-skill-info">
+        <h2 class="head-txt">Technical Skills</h2>
+        <ul>
+          <li>Computer Troubleshooting</li>
+          <li>Network/Internet Troubleshooting</li>
+          <li>Computer Maintenance</li>
+          <li>Hardware & Software Installation</li>
+          <li>Active Directory (Windows Server)</li>
+          <li>Remote Desktop Connection</li>
+        </ul>
+      </div>
+      <div class="skills-img-parent skills-img width-50 row-2-parent tech-img-main-cont">
+        <div class="skills-img-div1 skills-grid-item row-2-item tech-skill-img-container"><img src="./img/comp trouble.jpg" alt="skills-imgs" class="grid-img"></div>
+        <div class="skills-img-div2 skills-grid-item row-2-item tech-skill-img-container"><img src="./img/hardware inst.jpg" alt="skills-imgs" class="grid-img"></div>
+        <div class="skills-img-div3 skills-grid-item row-2-item tech-skill-img-container"><img src="./img/comp maintenance.jpg" alt="skills-imgs" class="grid-img"></div>
+        <div class="skills-img-div4 skills-grid-item row-2-item tech-skill-img-container"><img src="./img/network.jpg" alt="skills-imgs" class="grid-img"></div>
+        <div class="skills-img-div5 skills-grid-item row-2-item tech-skill-img-container"><img src="./img/os.jpg" alt="skills-imgs" class="grid-img"></div>
+      </div>
+    </div>
 
-        <div class="footer-items-container">
-          <h3>Services to Offer</h3>
-          <nav class="footer-link-nav">
-            <ul>
-              <li><a href="#">Technical Support</a></li>
-              <li><a href="#">Troubleshooting / Computer Repair</a></li>
-              <li><a href="#">Photo or Layout Editing</a></li>
-              <li><a href="#">Video Editing</a></li>
-              <li><a href="#">Web Development</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer-items-container">
-          <h3>Have a Question?</h3>
-          <div class="footer-info-container">
-            <div class="footer-address-info">
-              <img src="./design/img/address-icon.png" alt="">
-              <p>Guindulman, Bohol 6310</p>
+  <div class="div-container top-m3">
+      <div class="skills">
+        <h2 class="head-txt">Web Development <span style="font-style: italic;">(Frontend)</span></h2>
+        <div class="div-container div-center web-dev-skill">
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/html.png" alt="">
+              <h3>HTML</h3>
             </div>
-            <div class="footer-number-info">
-              <img src="./design/img/phone-no-icon.png" alt="">
-              <p>+6399-7963-9277</p>
-            </div>
-            <div class="footer-email-info">
-              <img src="./design/img/mail-icon.png" alt="">
-              <p>jcvechin11@gmail.com</p>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
             </div>
           </div>
-          <div class="email-button">
-            <a href="#"><div>Send an Email</div></a>
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/css.png" alt="">
+              <h3>CSS</h3>
+            </div>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+            </div>
+          </div>
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/js.png" alt="">
+              <h3>JavaScript</h3>
+            </div>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+            </div>
+          </div>
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/responsive.png" alt="">
+              <h3>Responsive Design</h3>
+            </div>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+            </div>
+          </div>
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/bootstrap.png" alt="">
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+            </div>
+          </div>
+          <div class="d-flex skills-main-div">
+            <div class="skill-txt-cont d-flex">
+              <img class="d-flex" src="./img/logo/icon/wordpress.png" alt="">
+              <h3>WordPress</h3>
+            </div>
+            <div class="d-flex skill-bar-container">
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade"></div>
+              <div class="skill-bar prog-shade empty-shade"></div>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+  </div>
 
-      <section class="footer-end">
-        <p>Copyright © 2022 All rights reserved</p>
-        <p>This portfolio is personally made and operated by Jhoncarlo Villaran Echin</p>
-      </section>
-    </footer>
-  </body>
-  <!--END BODY CONTENT-->
+
+  </section>
+
+
+  <section id="contact-sect" class="sect-container top-m1">
+    <h2 class="head-txt">Contact Information</h2>
+    <div class="contact-info-container d-flex">
+      <div class="div-container contact width-50">
+        <div class="div-container top-m1 contact-info">
+          <p>Phone Number:</p>
+          <h3>+63 997-963-9277 / +63 909-188-6277</h3>
+        </div>
+        <div class="div-container top-m1">
+          <p>Viber Number:</p>
+          <h3>+63 909-188-6277</h3>
+        </div>
+        <div class="div-container top-m1">
+          <p>Email Address:</p>
+          <h3>jcvechin11@gmail.com</h3>
+        </div>
+        <div class="div-container top-m1">
+          <p>Current Address:</p>
+          <address>Pampanga, Lanang, Davao City, Philippines 8000</address>
+        </div>
+        <div class="div-container top-m1">
+          <p>Home Address (Permanent):</p>
+          <address>Tabajan, Guindulman, Bohol, Philippines 6310</address>
+        </div>
+      </div>
+      <div class="div-container contact width-50">
+        <div class="div-container top-m1 d-flex center-div">
+          <img src="./img/logo/icon/fb.png" alt="">
+          <div class="contact-info">
+            <p>Facebook Profile:</p>
+            <p><a href="https://www.facebook.com/jcechin01" onclick="return openMyLinkProfile(this.href);">www.facebook.com/jcvechin01</a></p>
+          </div>
+        </div>
+        <div class="div-container top-m1 d-flex center-div">
+          <img src="./img/logo/icon/yt.png" alt="">
+          <div class="contact-info">
+            <p>YouTube Channel:</p>
+            <p><a href="https://www.youtube.com/@chosenplay" onclick="return openMyLinkProfile(this.href);">www.youtube.com/@chosenplay</a></p>
+          </div>
+        </div>
+        <div class="div-container top-m1 d-flex center-div">
+          <img src="./img/logo/icon/insta.png" alt="">
+          <div class="contact-info">
+            <p>Instagram Profile:</p>
+            <p><a href="https://www.instagram.com/jhoncarloechin/" onclick="return openMyLinkProfile(this.href);">www.instagram.com/jhoncarloechin/</a></p>
+          </div>
+        </div>
+        <div class="div-container top-m1 d-flex center-div">
+          <img src="./img/logo/icon/discord.png" alt="">
+          <div class="contact-info">
+            <p>Discord Profile:</p>
+            <p><a href="https://discord.com/channels/@me" onclick="return openMyLinkProfile(this.href);">www.discord.com/channels/@me</a></p>
+          </div>
+        </div>
+        <div class="div-container top-m1 d-flex center-div">
+          <img src="./img/logo/icon/github.png" alt="">
+          <div class="contact-info">
+            <p>GitHub Profile:</p>
+            <p><a href="https://github.com/Mr-Chosen" onclick="return openMyLinkProfile(this.href);">www.github.com/Mr-Chosen</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <section class="footer-sect sect-container d-flex center-div">
+    <div class="div-container d-flex footer-menu-container width-50">
+      <div class="div-container">
+        <ul>
+          <a href="#home-header"><li>Home</li></a>
+          <a href="#profile-sect"><li>Profile</li></a>
+          <a href="#skills-sect"><li>Skills</li></a>
+          <a href="#contact-sect"><li>Contacts</li></a>
+        </ul>
+      </div>
+      <div class="div-container">
+        <ul>
+          <a href=""><li>Techinical Support</li></a>
+          <a href=""><li>Photo Editing</li></a>
+          <a href=""><li>Video Editing</li></a>
+          <a href=""><li>Web Development</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex-column foot-icon-btn-cont">
+      <div class="icon-link-container d-flex">
+        <a href="https://www.youtube.com/@chosenplay" onclick="return openMyLinkProfile(this.href);" class="d-flex center-div"><img src="./img/logo/icon/yt.png" alt="ss"></a>
+        <a href="https://www.facebook.com/jcechin01" onclick="return openMyLinkProfile(this.href);" class="d-flex center-div"><img src="./img/logo/icon/fb.png" alt="ss"></a>
+        <a href="https://www.instagram.com/jhoncarloechin/" onclick="return openMyLinkProfile(this.href);" class="d-flex center-div"><img src="./img/logo/icon/insta.png" alt="ss"></a>
+        <a href="https://discord.com/channels/@me" onclick="return openMyLinkProfile(this.href);" class="d-flex center-div"><img src="./img/logo/icon/discord.png" alt="ss"></a>
+        <a href="https://github.com/Mr-Chosen" onclick="return openMyLinkProfile(this.href);" class="d-flex center-div"><img src="./img/logo/icon/github.png" alt=""></a>
+      </div>
+      <div class="foot-btn-container d-flex txt-center">
+        <div class="dl-resume-container">
+          <a class="dl-resume-btn" href="https://drive.usercontent.google.com/download?id=1WtWyHkUUt65DYQOuvvaAuPyxUFEAaSjF&export=download&authuser=1&confirm=t&uuid=aad25cab-89e3-4b46-b4ef-aec37da162a5&at=APZUnTUU9I28Sa3ikGaFHaB0MEu3:1720511700243"><button type="button">DOWNLOAD MY RESUME</button></a>
+        </div>
+        <div class="email-btn-container">
+          <a class="email-btn" href="mailto:jcvechin11@gmail.com?subject=&body="><button type="button">M@il Me</button></a>
+        </div>
+      </div>
+    </div>
+</section>
+<div class="foot-txt-container txt-center">
+  <p>Copyright © 2024 All rights reserved.</p>
+  <p>This portfolio is personally made and operated by Jhoncarlo Villaran Echin</p=>
+</div>
+</footer>
+<script src="./script.js"></script>
+</body>
 </html>
