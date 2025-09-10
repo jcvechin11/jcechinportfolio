@@ -631,7 +631,7 @@ width: 100%;
     width: 80%;
   } 
   header .nav-div {
-    width: 60%;
+    width: 70%;
   }
   .intro-sect .email-btn {
     margin-left: 1em;
@@ -673,10 +673,10 @@ width: 100%;
     width: 25%;
   } 
   header .nav-div {
-    width: 70%;
+    width: 75%;
   }
   .nav-menu-container li > a {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.25rem;
   }
   .intro-sect {
@@ -785,21 +785,23 @@ width: 100%;
     min-width: 360px;
     padding: 1em;
   }
-  header {
-    flex-direction: column;
-    min-width: 360px;
-    padding: 1.25em;
+
+  footer {
+    min-width: 380px;
     margin: 0;
+    padding: 0;
   }
+}
+
+@media (max-width: 440px) {
+
   .nav-div {
-    width: 90% !important;
+    width: 100% !important;
   }
-  header .logo-div {
-    width: 40%;
-  } 
+
   .nav-menu-container li > a {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   footer {
     min-width: 380px;
